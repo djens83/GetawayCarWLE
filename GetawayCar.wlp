@@ -1,0 +1,4044 @@
+{
+    "objects": {
+        "14": {
+            "name": "Player",
+            "transformation": [
+                -1.0000079,
+                0.0,
+                -2.384205117778038e-7,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                2.384205117778038e-7,
+                0.0,
+                -1.0000079,
+                0.0,
+                0.5130577,
+                -0.4327164,
+                0.3932168,
+                1.0
+            ],
+            "parent": "404"
+        },
+        "17": {
+            "name": "NonVrCamera",
+            "parent": "205",
+            "components": [
+                {
+                    "type": "view"
+                },
+                {
+                    "type": "mouse-look"
+                },
+                {
+                    "type": "cursor",
+                    "cursor": {
+                        "collisionGroup": 0,
+                        "handedness": "none"
+                    }
+                }
+            ],
+            "transformation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "18": {
+            "name": "EyeLeft",
+            "parent": "205",
+            "components": [
+                {
+                    "type": "view",
+                    "view": {
+                        "far": 200.0
+                    }
+                },
+                {
+                    "type": "input",
+                    "input": {
+                        "type": "eye left"
+                    }
+                },
+                {
+                    "type": "howler-audio-listener"
+                }
+            ],
+            "transformation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                -2.384185791015625e-7,
+                1.0
+            ]
+        },
+        "19": {
+            "name": "EyeRight",
+            "parent": "205",
+            "components": [
+                {
+                    "type": "view",
+                    "view": {
+                        "far": 200.0
+                    }
+                },
+                {
+                    "type": "input",
+                    "input": {
+                        "type": "eye right"
+                    }
+                }
+            ],
+            "transformation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                -2.384185791015625e-7,
+                1.0
+            ]
+        },
+        "21": {
+            "name": "Light",
+            "components": [
+                {
+                    "type": "light",
+                    "light": {
+                        "attenuation": 0.1,
+                        "type": "sun"
+                    },
+                    "active": true
+                }
+            ],
+            "transformation": [
+                0.8660252,
+                0.4999999,
+                -4.321335609347443e-7,
+                0.0,
+                -0.2499993,
+                0.4330107,
+                -0.8660289,
+                0.0,
+                -0.4330137,
+                0.7500022,
+                0.4999974,
+                0.0,
+                0.0000017,
+                3.0000805,
+                2.0000605,
+                1.0
+            ]
+        },
+        "23": {
+            "name": "Light.000",
+            "components": [
+                {
+                    "type": "light",
+                    "light": {
+                        "attenuation": 0.1,
+                        "type": "sun"
+                    },
+                    "active": true
+                }
+            ],
+            "transformation": [
+                0.8660251,
+                0.4999998,
+                8.940693874137651e-7,
+                0.0,
+                -0.2499998,
+                0.4330109,
+                0.8660264,
+                0.0,
+                0.4330126,
+                -0.7500007,
+                0.4999982,
+                0.0,
+                -1.0000162,
+                3.0000305,
+                -1.0000126,
+                1.0
+            ]
+        },
+        "53": {
+            "link": {
+                "name": "root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "130",
+            "name": "ControllerModelLeft",
+            "transformation": [
+                -0.9999998,
+                2.9802311729554276e-8,
+                -5.960464477539065e-8,
+                0.0,
+                -2.9802322387695326e-8,
+                0.0706573,
+                0.9975006,
+                0.0,
+                0.0,
+                0.9975004,
+                -0.0706574,
+                0.0,
+                -0.0117515,
+                0.0008869,
+                0.0161192,
+                1.0
+            ]
+        },
+        "54": {
+            "link": {
+                "name": "controller<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53",
+            "components": [
+                {
+                    "active": false
+                }
+            ]
+        },
+        "55": {
+            "link": {
+                "name": "thumbrest_pressed_max<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "56": {
+            "link": {
+                "name": "thumbrest_pressed_min<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "57": {
+            "link": {
+                "name": "thumbrest_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "58": {
+            "link": {
+                "name": "x_button_pressed_max<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "59": {
+            "link": {
+                "name": "x_button_pressed_min<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "60": {
+            "link": {
+                "name": "x_button_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "61": {
+            "link": {
+                "name": "x_button<x_button_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "60"
+        },
+        "62": {
+            "link": {
+                "name": "xr_standard_squeeze_pressed_max<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "63": {
+            "link": {
+                "name": "xr_standard_squeeze_pressed_min<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "64": {
+            "link": {
+                "name": "xr_standard_squeeze_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "65": {
+            "link": {
+                "name": "squeeze<xr_standard_squeeze_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "64"
+        },
+        "66": {
+            "link": {
+                "name": "xr_standard_thumbstick_pressed_max<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "67": {
+            "link": {
+                "name": "xr_standard_thumbstick_pressed_min<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "68": {
+            "link": {
+                "name": "xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "69": {
+            "link": {
+                "name": "xr_standard_thumbstick_xaxis_pressed_max<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "68"
+        },
+        "70": {
+            "link": {
+                "name": "xr_standard_thumbstick_xaxis_pressed_min<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "68"
+        },
+        "71": {
+            "link": {
+                "name": "xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "68"
+        },
+        "72": {
+            "link": {
+                "name": "xr_standard_thumbstick_yaxis_pressed_max<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "71"
+        },
+        "73": {
+            "link": {
+                "name": "xr_standard_thumbstick_yaxis_pressed_min<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "71"
+        },
+        "74": {
+            "link": {
+                "name": "xr_standard_thumbstick_yaxis_pressed_value<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "71"
+        },
+        "75": {
+            "link": {
+                "name": "thumbstick<xr_standard_thumbstick_yaxis_pressed_value<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "74"
+        },
+        "76": {
+            "link": {
+                "name": "xr_standard_trigger_pressed_max<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "77": {
+            "link": {
+                "name": "xr_standard_trigger_pressed_min<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "78": {
+            "link": {
+                "name": "xr_standard_trigger_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "79": {
+            "link": {
+                "name": "trigger<xr_standard_trigger_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "78"
+        },
+        "80": {
+            "link": {
+                "name": "y_button_pressed_max<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "81": {
+            "link": {
+                "name": "y_button_pressed_min<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "82": {
+            "link": {
+                "name": "y_button_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "53"
+        },
+        "83": {
+            "link": {
+                "name": "y_button<y_button_pressed_value<root",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "parent": "82"
+        },
+        "95": {
+            "link": {
+                "name": "root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "129",
+            "name": "ControllerModelRight",
+            "transformation": [
+                -0.9993979,
+                0.0,
+                8.344650268554688e-7,
+                0.0,
+                -1.4901161193847656e-8,
+                0.9990808,
+                -0.0251145,
+                0.0,
+                -8.642673492431641e-7,
+                -0.0251297,
+                -0.9996858,
+                0.0,
+                0.0097995,
+                -0.0006203,
+                0.0177838,
+                1.0
+            ]
+        },
+        "96": {
+            "link": {
+                "name": "a_button_pressed_max<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "97": {
+            "link": {
+                "name": "a_button_pressed_min<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "98": {
+            "link": {
+                "name": "a_button_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "99": {
+            "link": {
+                "name": "a_button<a_button_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "98"
+        },
+        "100": {
+            "link": {
+                "name": "b_button_pressed_max<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "101": {
+            "link": {
+                "name": "b_button_pressed_min<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "102": {
+            "link": {
+                "name": "b_button_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "103": {
+            "link": {
+                "name": "b_button<b_button_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "102"
+        },
+        "104": {
+            "link": {
+                "name": "controller<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95",
+            "components": [
+                {
+                    "active": false
+                }
+            ]
+        },
+        "105": {
+            "link": {
+                "name": "thumbrest_pressed_max<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "106": {
+            "link": {
+                "name": "thumbrest_pressed_min<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "107": {
+            "link": {
+                "name": "thumbrest_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "108": {
+            "link": {
+                "name": "xr_standard_squeeze_pressed_max<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "109": {
+            "link": {
+                "name": "xr_standard_squeeze_pressed_min<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "110": {
+            "link": {
+                "name": "xr_standard_squeeze_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "111": {
+            "link": {
+                "name": "squeeze<xr_standard_squeeze_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "110"
+        },
+        "112": {
+            "link": {
+                "name": "xr_standard_thumbstick_pressed_max<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "113": {
+            "link": {
+                "name": "xr_standard_thumbstick_pressed_min<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "114": {
+            "link": {
+                "name": "xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "115": {
+            "link": {
+                "name": "xr_standard_thumbstick_xaxis_pressed_max<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "114"
+        },
+        "116": {
+            "link": {
+                "name": "xr_standard_thumbstick_xaxis_pressed_min<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "114"
+        },
+        "117": {
+            "link": {
+                "name": "xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "114"
+        },
+        "118": {
+            "link": {
+                "name": "xr_standard_thumbstick_yaxis_pressed_max<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "117"
+        },
+        "119": {
+            "link": {
+                "name": "xr_standard_thumbstick_yaxis_pressed_min<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "117"
+        },
+        "120": {
+            "link": {
+                "name": "xr_standard_thumbstick_yaxis_pressed_value<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "117"
+        },
+        "121": {
+            "link": {
+                "name": "thumbstick<xr_standard_thumbstick_yaxis_pressed_value<xr_standard_thumbstick_xaxis_pressed_value<xr_standard_thumbstick_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "120"
+        },
+        "122": {
+            "link": {
+                "name": "xr_standard_trigger_pressed_max<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "123": {
+            "link": {
+                "name": "xr_standard_trigger_pressed_min<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "124": {
+            "link": {
+                "name": "xr_standard_trigger_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "95"
+        },
+        "125": {
+            "link": {
+                "name": "trigger<xr_standard_trigger_pressed_value<root",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "parent": "124"
+        },
+        "126": {
+            "name": "CursorLeft",
+            "parent": "205",
+            "components": [
+                {
+                    "type": "cursor",
+                    "cursor": {
+                        "cursorObject": "127",
+                        "collisionGroup": 0,
+                        "cursorRayObject": "209",
+                        "cursorRayScalingAxis": "y"
+                    }
+                },
+                {
+                    "type": "input",
+                    "input": {
+                        "type": "ray left"
+                    }
+                }
+            ],
+            "transformation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                2.384185791015625e-7,
+                1.192092895507813e-7,
+                -2.384185791015625e-7,
+                1.0
+            ]
+        },
+        "127": {
+            "name": "3DCursorHitLeft",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "9",
+                        "material": "128"
+                    }
+                }
+            ],
+            "transformation": [
+                0.0099999,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0099999,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0099999,
+                0.0,
+                0.0,
+                0.0388118,
+                1.5585095,
+                1.0
+            ],
+            "parent": null
+        },
+        "129": {
+            "name": "ControllerRight",
+            "parent": "205",
+            "transformation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                -2.384185791015625e-7,
+                1.0
+            ],
+            "components": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "type": "input",
+                    "input": {
+                        "type": "hand right"
+                    }
+                },
+                {
+                    "type": "vr-mode-active-switch",
+                    "active": true
+                },
+                {
+                    "type": "input-broadcaster"
+                }
+            ]
+        },
+        "130": {
+            "name": "ControllerLeft",
+            "parent": "205",
+            "components": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "type": "input",
+                    "input": {
+                        "type": "hand left"
+                    }
+                },
+                {
+                    "type": "vr-mode-active-switch",
+                    "active": true
+                },
+                {
+                    "type": "framerate"
+                },
+                {
+                    "type": "text",
+                    "text": {
+                        "text": "FPS"
+                    }
+                }
+            ],
+            "transformation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                -2.384185791015625e-7,
+                1.0
+            ]
+        },
+        "205": {
+            "name": "TrackedSpace",
+            "parent": "14",
+            "transformation": [
+                0.9999899,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.9999899,
+                0.0,
+                4.76837158203125e-7,
+                1.0930635,
+                4.76837158203125e-7,
+                1.0
+            ],
+            "components": [
+                {
+                    "type": "player-height"
+                }
+            ]
+        },
+        "209": {
+            "name": "CursorRayLeft",
+            "parent": "126",
+            "transformation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                2.384185791015625e-7,
+                1.0
+            ]
+        },
+        "210": {
+            "name": "CuresorRayMeshLeft",
+            "parent": "209",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "10",
+                        "material": "128"
+                    }
+                }
+            ],
+            "transformation": [
+                0.0049999,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0001057,
+                0.3500003,
+                0.0,
+                0.0,
+                -0.005,
+                0.0000015,
+                0.0,
+                2.384192896442983e-7,
+                0.0002447,
+                0.0,
+                1.0
+            ]
+        },
+        "212": {
+            "name": "CursorRight",
+            "parent": "205",
+            "components": [
+                {
+                    "type": "cursor",
+                    "cursor": {
+                        "cursorObject": "215",
+                        "collisionGroup": 0,
+                        "cursorRayObject": "213",
+                        "cursorRayScalingAxis": "y"
+                    }
+                },
+                {
+                    "type": "input",
+                    "input": {
+                        "type": "ray right"
+                    }
+                }
+            ],
+            "transformation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                -2.384185791015625e-7,
+                1.0
+            ]
+        },
+        "213": {
+            "name": "CursorRayRight",
+            "parent": "212",
+            "transformation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                2.384185791015625e-7,
+                1.0
+            ]
+        },
+        "214": {
+            "name": "CuresorRayMeshRight",
+            "parent": "213",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "10",
+                        "material": "128"
+                    }
+                }
+            ],
+            "transformation": [
+                0.0049999,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.0001711,
+                0.3499999,
+                0.0,
+                0.0,
+                -0.0049999,
+                -0.0000024,
+                0.0,
+                2.384185791015625e-7,
+                0.0002447,
+                0.0,
+                1.0
+            ]
+        },
+        "215": {
+            "name": "3DCursorHitRight",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "9",
+                        "material": "128"
+                    }
+                }
+            ],
+            "transformation": [
+                0.0099999,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0099999,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0099999,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "parent": null
+        },
+        "243": {
+            "link": {
+                "name": "longbank",
+                "file": "models\\Bank.glb"
+            },
+            "transformation": [
+                -1.1920746345595037e-7,
+                0.0,
+                -0.9999846,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.9999846,
+                0.0,
+                -1.1920746345595037e-7,
+                0.0,
+                -14.999998,
+                0.0,
+                9.3999996,
+                1.0
+            ],
+            "name": "Bank"
+        },
+        "285": {
+            "link": {
+                "name": "road",
+                "file": "models\\Road.glb"
+            },
+            "transformation": [
+                -9.249913546227616e-7,
+                -0.0,
+                7.7593874,
+                0.0,
+                -3.019916334778827e-7,
+                1.0,
+                -0.0,
+                0.0,
+                -4.9998955,
+                -0.0000015,
+                -5.960340558885946e-7,
+                0.0,
+                -15.0,
+                -0.0,
+                -1.1110706,
+                1.0
+            ],
+            "name": "road1",
+            "components": [
+                null,
+                null,
+                null
+            ],
+            "parent": "436"
+        },
+        "286": {
+            "name": "SpawnerRight",
+            "transformation": [
+                -1.1920898401740489e-7,
+                0.0,
+                -0.9999973,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.9999973,
+                0.0,
+                -1.1920898401740489e-7,
+                0.0,
+                22.8947677,
+                -0.0,
+                10.9933595,
+                1.0
+            ]
+        },
+        "287": {
+            "name": "SpawnerLeft",
+            "transformation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -13.5056848,
+                0.0,
+                -10.1869411,
+                1.0
+            ]
+        },
+        "404": {
+            "link": {
+                "name": "CarInterior",
+                "file": "models\\CarApplied.glb"
+            },
+            "transformation": [
+                -1.1920123199615773e-7,
+                0.0,
+                -0.9999323,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.9999323,
+                0.0,
+                -1.1920123199615773e-7,
+                0.0,
+                -5.2318673,
+                -0.0105,
+                4.4792065,
+                1.0
+            ],
+            "name": "Car",
+            "components": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "type": "car",
+                    "car": {
+                        "inputObject": "129",
+                        "power": 0.0099999
+                    }
+                }
+            ]
+        },
+        "405": {
+            "link": {
+                "name": "CarInterior.001<CarInterior",
+                "file": "models\\CarApplied.glb"
+            },
+            "parent": "404"
+        },
+        "406": {
+            "link": {
+                "name": "CarInterior.002<CarInterior",
+                "file": "models\\CarApplied.glb"
+            },
+            "parent": "404"
+        },
+        "407": {
+            "link": {
+                "name": "CarInterior.004<CarInterior",
+                "file": "models\\CarApplied.glb"
+            },
+            "parent": "404"
+        },
+        "408": {
+            "link": {
+                "name": "CarInterior.005<CarInterior",
+                "file": "models\\CarApplied.glb"
+            },
+            "parent": "404"
+        },
+        "409": {
+            "link": {
+                "name": "CarInterior.006<CarInterior",
+                "file": "models\\CarApplied.glb"
+            },
+            "parent": "404"
+        },
+        "410": {
+            "link": {
+                "name": "CarInterior.007<CarInterior",
+                "file": "models\\CarApplied.glb"
+            },
+            "parent": "404"
+        },
+        "411": {
+            "link": {
+                "name": "CarInterior.008<CarInterior",
+                "file": "models\\CarApplied.glb"
+            },
+            "parent": "404"
+        },
+        "412": {
+            "link": {
+                "name": "CarInterior.009<CarInterior",
+                "file": "models\\CarApplied.glb"
+            },
+            "parent": "404"
+        },
+        "413": {
+            "link": {
+                "name": "MONEY STACK<CarInterior",
+                "file": "models\\CarApplied.glb"
+            },
+            "parent": "404"
+        },
+        "414": {
+            "link": {
+                "name": "MONEY STACK.001<CarInterior",
+                "file": "models\\CarApplied.glb"
+            },
+            "parent": "404"
+        },
+        "415": {
+            "link": {
+                "name": "MONEY STACK.002<CarInterior",
+                "file": "models\\CarApplied.glb"
+            },
+            "parent": "404"
+        },
+        "416": {
+            "link": {
+                "name": "MONEYSTACKNOTPAINTED<CarInterior",
+                "file": "models\\CarApplied.glb"
+            },
+            "parent": "404"
+        },
+        "417": {
+            "link": {
+                "name": "zestyadframe<CarInterior",
+                "file": "models\\CarApplied.glb"
+            },
+            "parent": "404"
+        },
+        "422": {
+            "link": {
+                "name": "steering wheel.002",
+                "file": "models\\SteeringWheel2.glb"
+            },
+            "transformation": [
+                -0.8100908,
+                -0.0000067,
+                -0.0000266,
+                0.0,
+                0.0000264,
+                0.0228008,
+                -0.8097136,
+                0.0,
+                0.0000074,
+                -0.8097591,
+                -0.022802,
+                0.0,
+                0.5206047,
+                0.992318,
+                0.6403504,
+                1.0
+            ],
+            "name": "SteeringWheel",
+            "parent": "404",
+            "components": [
+                null,
+                null,
+                {
+                    "type": "handle",
+                    "handle": {
+                        "LeftHand": "130",
+                        "RightHand": "129",
+                        "Car": "404"
+                    }
+                }
+            ]
+        },
+        "434": {
+            "link": {
+                "name": "road",
+                "file": "models\\Road.glb"
+            },
+            "transformation": [
+                -9.249606591765768e-7,
+                -0.0,
+                7.75913,
+                0.0,
+                -3.019916334778827e-7,
+                1.0,
+                -0.0,
+                0.0,
+                -4.999638,
+                -0.0000015,
+                -5.960033604424098e-7,
+                0.0,
+                85.0,
+                2.980232238769531e-7,
+                -1.1142158,
+                1.0
+            ],
+            "parent": "436",
+            "name": "road2"
+        },
+        "435": {
+            "link": {
+                "name": "road",
+                "file": "models\\Road.glb"
+            },
+            "transformation": [
+                -9.24963046600169e-7,
+                -0.0,
+                7.75915,
+                0.0,
+                -3.019916334778827e-7,
+                1.0,
+                -0.0,
+                0.0,
+                -4.9996581,
+                -0.0000015,
+                -5.960057478660019e-7,
+                0.0,
+                -114.9999923,
+                -0.0,
+                -1.1110916,
+                1.0
+            ],
+            "parent": "436",
+            "name": "road3"
+        },
+        "436": {
+            "name": "Roads",
+            "components": [
+                {
+                    "type": "repeat",
+                    "repeat": {
+                        "player": "404",
+                        "triggerDistance": 10
+                    }
+                }
+            ]
+        },
+        "437": {
+            "name": "SceneManager",
+            "components": [
+                {
+                    "type": "scene-manager"
+                }
+            ]
+        },
+        "481": {
+            "link": {
+                "name": "bookstore8win",
+                "file": "models\\FinalBookstore.glb"
+            },
+            "transformation": [
+                -1.192070016031721e-7,
+                0.0,
+                -0.9999807,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.9999807,
+                0.0,
+                -1.192070016031721e-7,
+                0.0,
+                30.0,
+                0.0,
+                9.3999996,
+                1.0
+            ],
+            "name": "Bookstore",
+            "parent": "492"
+        },
+        "491": {
+            "link": {
+                "name": "apartmentLATEST",
+                "file": "models\\FinalApartment.glb"
+            },
+            "transformation": [
+                -1.1920846532120777e-7,
+                0.0,
+                -0.999993,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.999993,
+                0.0,
+                -1.1920846532120777e-7,
+                0.0,
+                10.0,
+                0.0,
+                9.39999,
+                1.0
+            ],
+            "name": "Apartment",
+            "parent": "492"
+        },
+        "492": {
+            "name": "BuildingsRight",
+            "components": [
+                {
+                    "type": "repeat",
+                    "repeat": {
+                        "player": "404",
+                        "interval": 20,
+                        "triggerDistance": 100
+                    }
+                }
+            ]
+        },
+        "493": {
+            "name": "BuildingsLeft",
+            "components": [
+                {
+                    "type": "repeat",
+                    "repeat": {
+                        "player": "404",
+                        "interval": 20,
+                        "triggerDistance": 100
+                    }
+                }
+            ]
+        },
+        "494": {
+            "link": {
+                "name": "apartmentLATEST",
+                "file": "models\\FinalApartment.glb"
+            },
+            "transformation": [
+                -1.1920707976287305e-7,
+                0.0,
+                -0.9999814,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.9999814,
+                0.0,
+                -1.1920707976287305e-7,
+                0.0,
+                50.0,
+                0.0,
+                9.3999691,
+                1.0
+            ],
+            "name": "Apartment",
+            "parent": "492"
+        },
+        "495": {
+            "link": {
+                "name": "apartmentLATEST",
+                "file": "models\\FinalApartment.glb"
+            },
+            "transformation": [
+                -1.1920704423573625e-7,
+                0.0,
+                -0.9999811,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.9999811,
+                0.0,
+                -1.1920704423573625e-7,
+                0.0,
+                70.0,
+                0.0,
+                9.3999691,
+                1.0
+            ],
+            "name": "Apartment",
+            "parent": "492"
+        },
+        "496": {
+            "link": {
+                "name": "bookstore8win",
+                "file": "models\\FinalBookstore.glb"
+            },
+            "transformation": [
+                -1.1920696607603533e-7,
+                0.0,
+                -0.9999804,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.9999804,
+                0.0,
+                -1.1920696607603533e-7,
+                0.0,
+                90.0,
+                0.0,
+                9.3999996,
+                1.0
+            ],
+            "name": "Bookstore",
+            "parent": "492"
+        },
+        "497": {
+            "link": {
+                "name": "bookstore8win",
+                "file": "models\\FinalBookstore.glb"
+            },
+            "transformation": [
+                -1.1920694475975325e-7,
+                0.0,
+                -0.9999802,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.9999802,
+                0.0,
+                -1.1920694475975325e-7,
+                0.0,
+                110.0,
+                0.0,
+                9.4000015,
+                1.0
+            ],
+            "name": "Bookstore",
+            "parent": "492"
+        },
+        "498": {
+            "link": {
+                "name": "apartmentLATEST",
+                "file": "models\\FinalApartment.glb"
+            },
+            "transformation": [
+                -1.1920585052394017e-7,
+                -0.0,
+                0.9999709,
+                0.0,
+                -1.748456099903706e-7,
+                1.0,
+                -0.0,
+                0.0,
+                -0.9999709,
+                -1.7484055092609196e-7,
+                -1.1920583631308547e-7,
+                0.0,
+                -10.0,
+                0.0,
+                -11.7999505,
+                1.0
+            ],
+            "name": "Apartment",
+            "parent": "493"
+        },
+        "499": {
+            "link": {
+                "name": "apartmentLATEST",
+                "file": "models\\FinalApartment.glb"
+            },
+            "transformation": [
+                -1.1920430154077621e-7,
+                -0.0,
+                0.9999579,
+                0.0,
+                -1.748456099903706e-7,
+                1.0,
+                -0.0,
+                0.0,
+                -0.9999579,
+                -1.7483827718933753e-7,
+                -1.192042873299215e-7,
+                0.0,
+                10.0,
+                0.0,
+                -11.7999315,
+                1.0
+            ],
+            "name": "Apartment",
+            "parent": "493"
+        },
+        "500": {
+            "link": {
+                "name": "bookstore8win",
+                "file": "models\\FinalBookstore.glb"
+            },
+            "transformation": [
+                -1.1920437970047717e-7,
+                -0.0,
+                0.9999586,
+                0.0,
+                -1.748456099903706e-7,
+                1.0,
+                -0.0,
+                0.0,
+                -0.9999586,
+                -1.7483839087617525e-7,
+                -1.1920436548962245e-7,
+                0.0,
+                30.0,
+                -0.0,
+                -11.799983,
+                1.0
+            ],
+            "name": "Bookstore",
+            "parent": "493"
+        },
+        "501": {
+            "link": {
+                "name": "bookstore8win",
+                "file": "models\\FinalBookstore.glb"
+            },
+            "transformation": [
+                -1.1920437970047717e-7,
+                -0.0,
+                0.9999586,
+                0.0,
+                -1.748456099903706e-7,
+                1.0,
+                -0.0,
+                0.0,
+                -0.9999586,
+                -1.7483839087617525e-7,
+                -1.1920436548962245e-7,
+                0.0,
+                50.0,
+                -0.0,
+                -11.7999839,
+                1.0
+            ],
+            "name": "Bookstore",
+            "parent": "493"
+        },
+        "502": {
+            "link": {
+                "name": "apartmentLATEST",
+                "file": "models\\FinalApartment.glb"
+            },
+            "transformation": [
+                -1.192042589082121e-7,
+                -0.0,
+                0.9999576,
+                0.0,
+                -1.748456099903706e-7,
+                1.0,
+                -0.0,
+                0.0,
+                -0.9999576,
+                -1.7483820613506398e-7,
+                -1.1920424469735737e-7,
+                0.0,
+                70.0,
+                0.0,
+                -11.7999229,
+                1.0
+            ],
+            "name": "Apartment",
+            "parent": "493"
+        },
+        "503": {
+            "link": {
+                "name": "bookstore8win",
+                "file": "models\\FinalBookstore.glb"
+            },
+            "transformation": [
+                -1.1920432285705829e-7,
+                -0.0,
+                0.9999581,
+                0.0,
+                -1.748456099903706e-7,
+                1.0,
+                -0.0,
+                0.0,
+                -0.9999581,
+                -1.7483830561104696e-7,
+                -1.1920430864620357e-7,
+                0.0,
+                90.0,
+                -0.0000019,
+                -11.7999801,
+                1.0
+            ],
+            "name": "Bookstore",
+            "parent": "493"
+        },
+        "504": {
+            "link": {
+                "name": "apartmentLATEST",
+                "file": "models\\FinalApartment.glb"
+            },
+            "transformation": [
+                -1.1920415943222908e-7,
+                -0.0,
+                0.9999567,
+                0.0,
+                -1.748456099903706e-7,
+                1.0,
+                -0.0,
+                0.0,
+                -0.9999567,
+                -1.748380640265168e-7,
+                -1.1920414522137437e-7,
+                0.0,
+                110.0,
+                0.0,
+                -11.7999296,
+                1.0
+            ],
+            "name": "Apartment",
+            "parent": "493"
+        },
+        "505": {
+            "link": {
+                "name": "apartmentLATEST",
+                "file": "models\\FinalApartment.glb"
+            },
+            "transformation": [
+                -1.1920398179654514e-7,
+                -0.0,
+                0.9999552,
+                0.0,
+                -1.748456099903706e-7,
+                1.0,
+                -0.0,
+                0.0,
+                -0.9999552,
+                -1.7483780823113193e-7,
+                -1.1920396758569041e-7,
+                0.0,
+                130.0,
+                0.0,
+                -11.7999305,
+                1.0
+            ],
+            "name": "Apartment",
+            "parent": "493"
+        },
+        "506": {
+            "link": {
+                "name": "apartmentLATEST",
+                "file": "models\\FinalApartment.glb"
+            },
+            "transformation": [
+                -1.1920702291945419e-7,
+                0.0,
+                -0.9999809,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.9999809,
+                0.0,
+                -1.1920702291945419e-7,
+                0.0,
+                130.0,
+                0.0,
+                9.3999671,
+                1.0
+            ],
+            "name": "Apartment",
+            "parent": "492"
+        },
+        "508": {
+            "name": "Dashboard",
+            "parent": "404",
+            "transformation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.5442018,
+                1.0176401,
+                0.8094072,
+                1.0
+            ]
+        },
+        "509": {
+            "name": "MeterCounter",
+            "parent": "508",
+            "components": [
+                {
+                    "type": "text",
+                    "text": {
+                        "effect": "none",
+                        "text": "100"
+                    }
+                }
+            ],
+            "transformation": [
+                -0.280001,
+                7.175938776526891e-7,
+                -0.0000046,
+                0.0,
+                -0.0000029,
+                0.187163,
+                0.2082726,
+                0.0,
+                0.0000036,
+                0.208249,
+                -0.1871672,
+                0.0,
+                0.1079604,
+                0.0252889,
+                0.0292286,
+                1.0
+            ]
+        }
+    },
+    "meshes": {
+        "7": {
+            "link": {
+                "name": "PrimitivePlane",
+                "file": "default"
+            }
+        },
+        "8": {
+            "link": {
+                "name": "PrimitiveCube",
+                "file": "default"
+            }
+        },
+        "9": {
+            "link": {
+                "name": "PrimitiveSphere",
+                "file": "default"
+            }
+        },
+        "10": {
+            "link": {
+                "name": "PrimitiveCone",
+                "file": "default"
+            }
+        },
+        "11": {
+            "link": {
+                "name": "PrimitiveCylinder",
+                "file": "default"
+            }
+        },
+        "12": {
+            "link": {
+                "name": "PrimitiveCircle",
+                "file": "default"
+            }
+        },
+        "47": {
+            "link": {
+                "name": "controller_plyShape",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "48": {
+            "link": {
+                "name": "controller_plyShape.003",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "49": {
+            "link": {
+                "name": "controller_plyShape.005",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "50": {
+            "link": {
+                "name": "controller_plyShape.006",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "51": {
+            "link": {
+                "name": "controller_plyShape.004",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "52": {
+            "link": {
+                "name": "controller_plyShape.002",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "89": {
+            "link": {
+                "name": "controller_plyShape.004",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "90": {
+            "link": {
+                "name": "controller_plyShape.005",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "91": {
+            "link": {
+                "name": "controller_plyShape",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "92": {
+            "link": {
+                "name": "controller_plyShape.002",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "93": {
+            "link": {
+                "name": "controller_plyShape.003",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "94": {
+            "link": {
+                "name": "controller_plyShape.001",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "132": {
+            "link": {
+                "name": "Mesh",
+                "file": "models\\hand-left.glb"
+            },
+            "name": "HandLeft"
+        },
+        "165": {
+            "link": {
+                "name": "Mesh.001",
+                "file": "models\\hand-right.glb"
+            },
+            "name": "HandRight"
+        },
+        "195": {
+            "link": {
+                "name": "Cube.001",
+                "file": "models\\button.glb"
+            },
+            "name": "Button"
+        },
+        "207": {
+            "link": {
+                "name": "TeleportIndicator",
+                "file": "models\\teleport-indicator.glb"
+            }
+        },
+        "231": {
+            "link": {
+                "name": "Plane.054",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "232": {
+            "link": {
+                "name": "Plane.054.0",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "233": {
+            "link": {
+                "name": "Plane.054.1",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "234": {
+            "link": {
+                "name": "Plane.054.2",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "235": {
+            "link": {
+                "name": "Plane.054.3",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "236": {
+            "link": {
+                "name": "Plane.054.4",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "237": {
+            "link": {
+                "name": "Plane.054.5",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "238": {
+            "link": {
+                "name": "Plane.054.6",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "239": {
+            "link": {
+                "name": "Plane.054.7",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "240": {
+            "link": {
+                "name": "Plane.054.8",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "241": {
+            "link": {
+                "name": "Plane.054.9",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "242": {
+            "link": {
+                "name": "Plane.054.10",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "262": {
+            "link": {
+                "name": "Cube.005",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "263": {
+            "link": {
+                "name": "Cube.005.0",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "264": {
+            "link": {
+                "name": "Cube.005.1",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "265": {
+            "link": {
+                "name": "Cube.005.2",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "266": {
+            "link": {
+                "name": "Cube.005.3",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "267": {
+            "link": {
+                "name": "Cube.005.4",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "268": {
+            "link": {
+                "name": "Cube.005.5",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "269": {
+            "link": {
+                "name": "Cube.005.6",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "270": {
+            "link": {
+                "name": "Cube.005.7",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "271": {
+            "link": {
+                "name": "Cube.005.8",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "272": {
+            "link": {
+                "name": "Cube.005.9",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "273": {
+            "link": {
+                "name": "Cube.005.10",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "274": {
+            "link": {
+                "name": "Cube.005.11",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "275": {
+            "link": {
+                "name": "Cube.005.12",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "276": {
+            "link": {
+                "name": "Cube.005.13",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "277": {
+            "link": {
+                "name": "Cube.005.14",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "282": {
+            "link": {
+                "name": "Plane",
+                "file": "models\\Road.glb"
+            }
+        },
+        "283": {
+            "link": {
+                "name": "Plane.0",
+                "file": "models\\Road.glb"
+            }
+        },
+        "284": {
+            "link": {
+                "name": "Plane.1",
+                "file": "models\\Road.glb"
+            }
+        },
+        "290": {
+            "link": {
+                "name": "Torus.001",
+                "file": "models\\SteeringWheel.glb"
+            }
+        },
+        "291": {
+            "link": {
+                "name": "Torus.001.0",
+                "file": "models\\SteeringWheel.glb"
+            }
+        },
+        "309": {
+            "link": {
+                "name": "Plane.068",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "310": {
+            "link": {
+                "name": "Plane.068.0",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "311": {
+            "link": {
+                "name": "Plane.068.1",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "312": {
+            "link": {
+                "name": "Plane.068.2",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "313": {
+            "link": {
+                "name": "Plane.068.3",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "314": {
+            "link": {
+                "name": "Plane.068.4",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "315": {
+            "link": {
+                "name": "Plane.068.5",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "316": {
+            "link": {
+                "name": "Plane.068.6",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "317": {
+            "link": {
+                "name": "Plane.068.7",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "318": {
+            "link": {
+                "name": "Plane.068.8",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "319": {
+            "link": {
+                "name": "Plane.068.9",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "320": {
+            "link": {
+                "name": "Plane.068.10",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "321": {
+            "link": {
+                "name": "Plane.068.11",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "327": {
+            "link": {
+                "name": "Plane.068",
+                "file": "models\\meshtest4.glb"
+            }
+        },
+        "328": {
+            "link": {
+                "name": "Plane.068.0",
+                "file": "models\\meshtest4.glb"
+            }
+        },
+        "329": {
+            "link": {
+                "name": "Plane.068.1",
+                "file": "models\\meshtest4.glb"
+            }
+        },
+        "330": {
+            "link": {
+                "name": "Plane.068.2",
+                "file": "models\\meshtest4.glb"
+            }
+        },
+        "355": {
+            "link": {
+                "name": "Cube.015",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "356": {
+            "link": {
+                "name": "Cube.015.0",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "357": {
+            "link": {
+                "name": "Cube.001",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "358": {
+            "link": {
+                "name": "Cube.001.0",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "359": {
+            "link": {
+                "name": "Cube.001.1",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "360": {
+            "link": {
+                "name": "Cube.001.2",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "361": {
+            "link": {
+                "name": "Cube.003",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "362": {
+            "link": {
+                "name": "Cube.003.0",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "363": {
+            "link": {
+                "name": "Cube.003.1",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "364": {
+            "link": {
+                "name": "Cube.003.2",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "365": {
+            "link": {
+                "name": "Cube.004",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "366": {
+            "link": {
+                "name": "Cube.004.0",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "367": {
+            "link": {
+                "name": "Cube.004.1",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "368": {
+            "link": {
+                "name": "Cube.004.2",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "369": {
+            "link": {
+                "name": "Cube.006",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "370": {
+            "link": {
+                "name": "Cube.006.0",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "371": {
+            "link": {
+                "name": "Cube.006.1",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "372": {
+            "link": {
+                "name": "Cube.006.2",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "373": {
+            "link": {
+                "name": "Cube.007",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "374": {
+            "link": {
+                "name": "Cube.007.0",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "375": {
+            "link": {
+                "name": "Cube.007.1",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "376": {
+            "link": {
+                "name": "Cube.007.2",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "377": {
+            "link": {
+                "name": "Cube.008",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "378": {
+            "link": {
+                "name": "Cube.008.0",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "379": {
+            "link": {
+                "name": "Cube.008.1",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "380": {
+            "link": {
+                "name": "Cube.008.2",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "381": {
+            "link": {
+                "name": "Cube.009",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "382": {
+            "link": {
+                "name": "Cube.009.0",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "383": {
+            "link": {
+                "name": "Cube.009.1",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "384": {
+            "link": {
+                "name": "Cube.009.2",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "385": {
+            "link": {
+                "name": "Cube.013",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "386": {
+            "link": {
+                "name": "Cube.010",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "387": {
+            "link": {
+                "name": "Cube.002",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "388": {
+            "link": {
+                "name": "Cube.002.0",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "389": {
+            "link": {
+                "name": "Cube.002.1",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "390": {
+            "link": {
+                "name": "Cube.002.2",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "391": {
+            "link": {
+                "name": "Cube.011",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "392": {
+            "link": {
+                "name": "Cube.005",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "393": {
+            "link": {
+                "name": "Cube.005.0",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "394": {
+            "link": {
+                "name": "Cube.005.1",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "395": {
+            "link": {
+                "name": "Cube.005.2",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "396": {
+            "link": {
+                "name": "Cube.005.3",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "397": {
+            "link": {
+                "name": "Cube.005.4",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "398": {
+            "link": {
+                "name": "Cube.005.5",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "399": {
+            "link": {
+                "name": "Cube.005.6",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "400": {
+            "link": {
+                "name": "Cube.005.7",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "401": {
+            "link": {
+                "name": "Cube.005.8",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "402": {
+            "link": {
+                "name": "Cube.005.9",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "403": {
+            "link": {
+                "name": "Cube.005.10",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "420": {
+            "link": {
+                "name": "Torus.003",
+                "file": "models\\SteeringWheel2.glb"
+            }
+        },
+        "421": {
+            "link": {
+                "name": "Torus.003.0",
+                "file": "models\\SteeringWheel2.glb"
+            }
+        },
+        "446": {
+            "link": {
+                "name": "Plane.071",
+                "file": "models\\Apartment.glb"
+            }
+        },
+        "447": {
+            "link": {
+                "name": "Plane.071.0",
+                "file": "models\\Apartment.glb"
+            }
+        },
+        "448": {
+            "link": {
+                "name": "Plane.071.1",
+                "file": "models\\Apartment.glb"
+            }
+        },
+        "449": {
+            "link": {
+                "name": "Plane.071.2",
+                "file": "models\\Apartment.glb"
+            }
+        },
+        "450": {
+            "link": {
+                "name": "Plane.071.3",
+                "file": "models\\Apartment.glb"
+            }
+        },
+        "451": {
+            "link": {
+                "name": "Plane.071.4",
+                "file": "models\\Apartment.glb"
+            }
+        },
+        "452": {
+            "link": {
+                "name": "Plane.071.5",
+                "file": "models\\Apartment.glb"
+            }
+        },
+        "453": {
+            "link": {
+                "name": "Plane.071.6",
+                "file": "models\\Apartment.glb"
+            }
+        },
+        "462": {
+            "link": {
+                "name": "Plane.071",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "463": {
+            "link": {
+                "name": "Plane.071.0",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "464": {
+            "link": {
+                "name": "Plane.071.1",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "465": {
+            "link": {
+                "name": "Plane.071.2",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "466": {
+            "link": {
+                "name": "Plane.071.3",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "467": {
+            "link": {
+                "name": "Plane.071.4",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "468": {
+            "link": {
+                "name": "Plane.071.5",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "469": {
+            "link": {
+                "name": "Plane.071.6",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "476": {
+            "link": {
+                "name": "Plane.033",
+                "file": "models\\FinalBookstore.glb"
+            }
+        },
+        "477": {
+            "link": {
+                "name": "Plane.033.0",
+                "file": "models\\FinalBookstore.glb"
+            }
+        },
+        "478": {
+            "link": {
+                "name": "Plane.033.1",
+                "file": "models\\FinalBookstore.glb"
+            }
+        },
+        "479": {
+            "link": {
+                "name": "Plane.033.2",
+                "file": "models\\FinalBookstore.glb"
+            }
+        },
+        "480": {
+            "link": {
+                "name": "Plane.033.3",
+                "file": "models\\FinalBookstore.glb"
+            }
+        },
+        "485": {
+            "link": {
+                "name": "Plane.183",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "486": {
+            "link": {
+                "name": "Plane.183.0",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "487": {
+            "link": {
+                "name": "Plane.183.1",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "488": {
+            "link": {
+                "name": "Plane.183.2",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "489": {
+            "link": {
+                "name": "Plane.183.3",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "490": {
+            "link": {
+                "name": "Plane.183.4",
+                "file": "models\\FinalApartment.glb"
+            }
+        }
+    },
+    "textures": {
+        "t0": {
+            "link": {
+                "name": "DefaultTexture",
+                "file": "default"
+            },
+            "name": "DefaultFont"
+        },
+        "44": {
+            "link": {
+                "name": "texture_0",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "45": {
+            "link": {
+                "name": "texture_1",
+                "file": "models\\oculus-touch-v2-left.glb"
+            }
+        },
+        "86": {
+            "link": {
+                "name": "texture_0",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "87": {
+            "link": {
+                "name": "texture_1",
+                "file": "models\\oculus-touch-v2-right.glb"
+            }
+        },
+        "245": {
+            "link": {
+                "name": "texture_0",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "295": {
+            "link": {
+                "name": "texture_0",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "335": {
+            "link": {
+                "name": "texture_0",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "336": {
+            "link": {
+                "name": "texture_1",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "483": {
+            "link": {
+                "name": "texture_0",
+                "file": "models\\FinalApartment.glb"
+            }
+        }
+    },
+    "images": {
+        "f0": {
+            "link": {
+                "name": "DefaultImage",
+                "file": "default"
+            }
+        },
+        "42": {
+            "link": {
+                "name": "Image_0",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "maxSize": [
+                1024,
+                1024
+            ]
+        },
+        "43": {
+            "link": {
+                "name": "Image_1",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "maxSize": [
+                256,
+                256
+            ]
+        },
+        "84": {
+            "link": {
+                "name": "Image_0",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "maxSize": [
+                1024,
+                1024
+            ]
+        },
+        "85": {
+            "link": {
+                "name": "Image_1",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "maxSize": [
+                256,
+                256
+            ]
+        },
+        "244": {
+            "link": {
+                "name": "Frame 2 (1)",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "294": {
+            "link": {
+                "name": "store sign 1",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "333": {
+            "link": {
+                "name": "bag bake",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "334": {
+            "link": {
+                "name": "Money",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "482": {
+            "link": {
+                "name": "store sign 2",
+                "file": "models\\FinalApartment.glb"
+            }
+        }
+    },
+    "materials": {
+        "DefaultFontMaterial": {
+            "link": {
+                "name": "DefaultFontMaterial",
+                "file": "default"
+            },
+            "Text": {
+                "effectColor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        "20": {
+            "name": "White",
+            "shader": "Phong",
+            "Phong": {
+                "specularColor": [
+                    9.999899930335232e-7,
+                    9.99993744699168e-7,
+                    9.999999974752427e-7,
+                    1.0
+                ],
+                "shininess": 1
+            },
+            "pipeline": "37"
+        },
+        "22": {
+            "name": "Pink",
+            "Phong": {
+                "diffuseColor": [
+                    0.9098039,
+                    0.0,
+                    0.5411764,
+                    1.0
+                ],
+                "specularColor": [
+                    9.999899930335232e-7,
+                    9.999911299019004e-7,
+                    9.999999974752427e-7,
+                    1.0
+                ],
+                "shininess": 10,
+                "ambientColor": [
+                    0.317647,
+                    0.0,
+                    0.2165777,
+                    1.0
+                ]
+            }
+        },
+        "25": {
+            "name": "Yellow",
+            "Phong": {
+                "diffuseColor": [
+                    1.0,
+                    0.8039215,
+                    0.0,
+                    1.0
+                ],
+                "specularColor": [
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999899930335232e-7,
+                    1.0
+                ],
+                "ambientColor": [
+                    0.3843137,
+                    0.3089579,
+                    0.0,
+                    1.0
+                ]
+            }
+        },
+        "26": {
+            "name": "Green",
+            "Phong": {
+                "diffuseColor": [
+                    0.1529411,
+                    0.7882353,
+                    0.5411764,
+                    1.0
+                ],
+                "specularColor": [
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999899930335232e-7,
+                    1.0
+                ],
+                "ambientColor": [
+                    0.0,
+                    0.2352941,
+                    0.1437908,
+                    1.0
+                ]
+            }
+        },
+        "46": {
+            "link": {
+                "name": "skel_controller_materials_controllerMTL1",
+                "file": "models\\oculus-touch-v2-left.glb"
+            },
+            "name": "ControllerLeft"
+        },
+        "88": {
+            "link": {
+                "name": "skel_controller_materials_controllerMTL",
+                "file": "models\\oculus-touch-v2-right.glb"
+            },
+            "name": "ControllerRight"
+        },
+        "128": {
+            "name": "Cursor",
+            "shader": "Phong",
+            "Phong": {
+                "specularColor": [
+                    9.999899930335232e-7,
+                    9.99993744699168e-7,
+                    9.999999974752427e-7,
+                    1.0
+                ],
+                "shininess": 1
+            },
+            "pipeline": "34"
+        },
+        "131": {
+            "link": {
+                "name": "Default_Material",
+                "file": "models\\hand-left.glb"
+            },
+            "name": "HandLeft"
+        },
+        "164": {
+            "link": {
+                "name": "lambert2",
+                "file": "models\\hand-right.glb"
+            },
+            "name": "HandRight"
+        },
+        "201": {
+            "link": {
+                "name": "DefaultFontMaterial",
+                "file": "default"
+            },
+            "name": "TextAccent",
+            "Text": {
+                "color": [
+                    0.9098039,
+                    0.0,
+                    0.5411764,
+                    1.0
+                ]
+            }
+        },
+        "202": {
+            "name": "Dark",
+            "shader": "Phong",
+            "Phong": {
+                "specularColor": [
+                    9.999899930335232e-7,
+                    9.99993744699168e-7,
+                    9.999999974752427e-7,
+                    1.0
+                ],
+                "shininess": 1,
+                "diffuseColor": [
+                    0.1686274,
+                    0.1686257,
+                    0.1686257,
+                    1.0
+                ],
+                "ambientColor": [
+                    0.0274509,
+                    0.0274507,
+                    0.0274507,
+                    1.0
+                ]
+            }
+        },
+        "203": {
+            "name": "GreenHover",
+            "Phong": {
+                "diffuseColor": [
+                    0.4894117,
+                    0.917647,
+                    0.7511102,
+                    1.0
+                ],
+                "specularColor": [
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999899930335232e-7,
+                    1.0
+                ],
+                "ambientColor": [
+                    0.0,
+                    0.3294117,
+                    0.2013071,
+                    1.0
+                ]
+            }
+        },
+        "206": {
+            "link": {
+                "name": "TeleportIndicator",
+                "file": "models\\teleport-indicator.glb"
+            },
+            "Phong": {
+                "diffuseColor": [
+                    0.6862745,
+                    0.6862676,
+                    0.6862676,
+                    1.0
+                ]
+            },
+            "pipeline": "34",
+            "Flat": {
+                "color": [
+                    0.8392156,
+                    0.8392072,
+                    0.8392072,
+                    1.0
+                ]
+            }
+        },
+        "219": {
+            "link": {
+                "name": "warm grey",
+                "file": "models\\Bank.glb"
+            },
+            "Phong": {
+                "ambientFactor": 0.2
+            }
+        },
+        "220": {
+            "link": {
+                "name": "black",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "221": {
+            "link": {
+                "name": "midgrey",
+                "file": "models\\Bank.glb"
+            },
+            "Phong": {
+                "ambientFactor": 0.2
+            }
+        },
+        "222": {
+            "link": {
+                "name": "glass?",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "223": {
+            "link": {
+                "name": "sidewalk",
+                "file": "models\\Bank.glb"
+            },
+            "Phong": {
+                "ambientFactor": 0.25
+            }
+        },
+        "224": {
+            "link": {
+                "name": "lines",
+                "file": "models\\Bank.glb"
+            },
+            "Phong": {
+                "ambientFactor": 0.2
+            }
+        },
+        "225": {
+            "link": {
+                "name": "blue",
+                "file": "models\\Bank.glb"
+            },
+            "Phong": {
+                "ambientFactor": 0.4
+            }
+        },
+        "226": {
+            "link": {
+                "name": "white",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "227": {
+            "link": {
+                "name": "Material.015",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "228": {
+            "link": {
+                "name": "Material.016",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "229": {
+            "link": {
+                "name": "Material.017",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "230": {
+            "link": {
+                "name": "Material.018",
+                "file": "models\\Bank.glb"
+            }
+        },
+        "246": {
+            "link": {
+                "name": "silver",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "247": {
+            "link": {
+                "name": "dark",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "248": {
+            "link": {
+                "name": "Material.005",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "249": {
+            "link": {
+                "name": "Material.006",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "250": {
+            "link": {
+                "name": "Material.001",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "251": {
+            "link": {
+                "name": "Material.003",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "252": {
+            "link": {
+                "name": "Material.004",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "253": {
+            "link": {
+                "name": "Material",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "254": {
+            "link": {
+                "name": "dark.001",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "255": {
+            "link": {
+                "name": "Material.007",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "256": {
+            "link": {
+                "name": "Material.008",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "257": {
+            "link": {
+                "name": "Material.009",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "258": {
+            "link": {
+                "name": "Material.010",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "259": {
+            "link": {
+                "name": "Material.011",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "260": {
+            "link": {
+                "name": "Material.012",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "261": {
+            "link": {
+                "name": "black",
+                "file": "models\\CarFinal.glb"
+            }
+        },
+        "279": {
+            "link": {
+                "name": "road",
+                "file": "models\\Road.glb"
+            },
+            "Phong": {
+                "ambientFactor": 0.25
+            }
+        },
+        "280": {
+            "link": {
+                "name": "lines",
+                "file": "models\\Road.glb"
+            },
+            "Phong": {
+                "ambientFactor": 0.3
+            }
+        },
+        "281": {
+            "link": {
+                "name": "road.001",
+                "file": "models\\Road.glb"
+            },
+            "Phong": {
+                "ambientFactor": 0.4799999
+            }
+        },
+        "288": {
+            "link": {
+                "name": "Material.001",
+                "file": "models\\SteeringWheel.glb"
+            }
+        },
+        "289": {
+            "link": {
+                "name": "silver",
+                "file": "models\\SteeringWheel.glb"
+            }
+        },
+        "296": {
+            "link": {
+                "name": "warm grey.001",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "297": {
+            "link": {
+                "name": "bookstore",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "298": {
+            "link": {
+                "name": "mainColor.001",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "299": {
+            "link": {
+                "name": "glass?.001",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "300": {
+            "link": {
+                "name": "sidewalk.001",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "301": {
+            "link": {
+                "name": "warm grey",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "302": {
+            "link": {
+                "name": "black",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "303": {
+            "link": {
+                "name": "mainColor",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "304": {
+            "link": {
+                "name": "glass?",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "305": {
+            "link": {
+                "name": "Material.003",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "306": {
+            "link": {
+                "name": "midgrey.001",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "307": {
+            "link": {
+                "name": "sidewalk",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "308": {
+            "link": {
+                "name": "midgrey",
+                "file": "models\\Bookstore.glb"
+            }
+        },
+        "323": {
+            "link": {
+                "name": "warm grey",
+                "file": "models\\meshtest4.glb"
+            }
+        },
+        "324": {
+            "link": {
+                "name": "dullgreen",
+                "file": "models\\meshtest4.glb"
+            }
+        },
+        "325": {
+            "link": {
+                "name": "black",
+                "file": "models\\meshtest4.glb"
+            }
+        },
+        "326": {
+            "link": {
+                "name": "red accent",
+                "file": "models\\meshtest4.glb"
+            }
+        },
+        "337": {
+            "link": {
+                "name": "Material.007",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "338": {
+            "link": {
+                "name": "Material.008",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "339": {
+            "link": {
+                "name": "Material.009",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "340": {
+            "link": {
+                "name": "Material.010",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "341": {
+            "link": {
+                "name": "Material.011",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "342": {
+            "link": {
+                "name": "Material.012",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "343": {
+            "link": {
+                "name": "dark.002",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "344": {
+            "link": {
+                "name": "dark.003",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "345": {
+            "link": {
+                "name": "black",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "346": {
+            "link": {
+                "name": "silver",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "347": {
+            "link": {
+                "name": "dark",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "348": {
+            "link": {
+                "name": "Material.005",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "349": {
+            "link": {
+                "name": "Material.006",
+                "file": "models\\CarApplied.glb"
+            },
+            "Phong": {
+                "ambientFactor": 0.3
+            }
+        },
+        "350": {
+            "link": {
+                "name": "Material.001",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "351": {
+            "link": {
+                "name": "Material.003",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "352": {
+            "link": {
+                "name": "Material.004",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "353": {
+            "link": {
+                "name": "Material",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "354": {
+            "link": {
+                "name": "dark.001",
+                "file": "models\\CarApplied.glb"
+            }
+        },
+        "418": {
+            "link": {
+                "name": "Material.001",
+                "file": "models\\SteeringWheel2.glb"
+            }
+        },
+        "419": {
+            "link": {
+                "name": "silver",
+                "file": "models\\SteeringWheel2.glb"
+            }
+        },
+        "438": {
+            "link": {
+                "name": "warm grey",
+                "file": "models\\Apartment.glb"
+            }
+        },
+        "439": {
+            "link": {
+                "name": "black",
+                "file": "models\\Apartment.glb"
+            }
+        },
+        "440": {
+            "link": {
+                "name": "mainColor",
+                "file": "models\\Apartment.glb"
+            }
+        },
+        "441": {
+            "link": {
+                "name": "glass?",
+                "file": "models\\Apartment.glb"
+            }
+        },
+        "442": {
+            "link": {
+                "name": "sidewalk",
+                "file": "models\\Apartment.glb"
+            }
+        },
+        "443": {
+            "link": {
+                "name": "bricklight",
+                "file": "models\\Apartment.glb"
+            }
+        },
+        "444": {
+            "link": {
+                "name": "canopy",
+                "file": "models\\Apartment.glb"
+            }
+        },
+        "445": {
+            "link": {
+                "name": "acnt",
+                "file": "models\\Apartment.glb"
+            }
+        },
+        "454": {
+            "link": {
+                "name": "warm grey",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "455": {
+            "link": {
+                "name": "black",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "456": {
+            "link": {
+                "name": "mainColor",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "457": {
+            "link": {
+                "name": "glass?",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "458": {
+            "link": {
+                "name": "sidewalk",
+                "file": "models\\FinalApartment.glb"
+            },
+            "Phong": {
+                "ambientFactor": 0.25
+            }
+        },
+        "459": {
+            "link": {
+                "name": "bricklight",
+                "file": "models\\FinalApartment.glb"
+            },
+            "Phong": {
+                "ambientFactor": 0.1
+            }
+        },
+        "460": {
+            "link": {
+                "name": "canopy",
+                "file": "models\\FinalApartment.glb"
+            },
+            "Phong": {
+                "ambientFactor": 0.5
+            }
+        },
+        "461": {
+            "link": {
+                "name": "acnt",
+                "file": "models\\FinalApartment.glb"
+            }
+        },
+        "471": {
+            "link": {
+                "name": "sidewalk.001",
+                "file": "models\\FinalBookstore.glb"
+            },
+            "Phong": {
+                "ambientFactor": 0.25
+            }
+        },
+        "472": {
+            "link": {
+                "name": "dullgreen",
+                "file": "models\\FinalBookstore.glb"
+            }
+        },
+        "473": {
+            "link": {
+                "name": "black",
+                "file": "models\\FinalBookstore.glb"
+            }
+        },
+        "474": {
+            "link": {
+                "name": "mainColor",
+                "file": "models\\FinalBookstore.glb"
+            }
+        },
+        "475": {
+            "link": {
+                "name": "red accent",
+                "file": "models\\FinalBookstore.glb"
+            }
+        },
+        "484": {
+            "link": {
+                "name": "apartment sign",
+                "file": "models\\FinalApartment.glb"
+            },
+            "Phong": {
+                "ambientFactor": 0.3
+            }
+        }
+    },
+    "shaders": {
+        "1": {
+            "link": {
+                "name": "DistanceFieldVector Textured.frag",
+                "file": "default"
+            }
+        },
+        "2": {
+            "link": {
+                "name": "Flat.frag",
+                "file": "default"
+            }
+        },
+        "3": {
+            "link": {
+                "name": "Flat Textured.frag",
+                "file": "default"
+            }
+        },
+        "4": {
+            "link": {
+                "name": "MeshVisualizer.frag",
+                "file": "default"
+            }
+        },
+        "5": {
+            "link": {
+                "name": "Phong.frag",
+                "file": "default"
+            }
+        },
+        "6": {
+            "link": {
+                "name": "Phong Textured.frag",
+                "file": "default"
+            }
+        },
+        "28": {
+            "link": {
+                "name": "Dynamic.vert",
+                "file": "default"
+            }
+        },
+        "29": {
+            "link": {
+                "name": "Particle Textured.frag",
+                "file": "default"
+            }
+        },
+        "30": {
+            "link": {
+                "name": "Skinning.vert",
+                "file": "default"
+            }
+        },
+        "31": {
+            "link": {
+                "name": "Static.frag",
+                "file": "default"
+            }
+        },
+        "32": {
+            "link": {
+                "name": "DistanceFieldVector.frag",
+                "file": "default"
+            }
+        },
+        "37": {
+            "link": {
+                "name": "Particle.frag",
+                "file": "default"
+            }
+        },
+        "217": {
+            "link": {
+                "name": "Depth.frag",
+                "file": "default"
+            }
+        },
+        "423": {
+            "link": {
+                "name": "Background.frag",
+                "file": "default"
+            }
+        },
+        "424": {
+            "link": {
+                "name": "FullScreenTriangle.vert",
+                "file": "default"
+            }
+        },
+        "425": {
+            "link": {
+                "name": "Physical.frag",
+                "file": "default"
+            }
+        },
+        "428": {
+            "link": {
+                "name": "Sky.frag",
+                "file": "default"
+            }
+        },
+        "429": {
+            "link": {
+                "name": "Text.frag",
+                "file": "default"
+            }
+        },
+        "431": {
+            "link": {
+                "name": "Text.vert",
+                "file": "default"
+            }
+        },
+        "432": {
+            "link": {
+                "name": "TileFeedback.frag",
+                "file": "default"
+            }
+        }
+    },
+    "settings": {
+        "project": {
+            "name": "GetawayCar",
+            "version": [
+                0,
+                9,
+                1
+            ]
+        },
+        "vr": {
+            "leftEyeObject": "18",
+            "rightEyeObject": "19"
+        },
+        "scripting": {
+            "sourcePaths": [
+                "/js/editor-components-bundle.js",
+                "js/"
+            ]
+        },
+        "runtime": {
+            "visualizeColliders": false,
+            "webxr": {
+                "optionalFeatures": {
+                    "local-floor": false,
+                    "hand-tracking": false
+                }
+            },
+            "enableRuntimeGltf": true
+        },
+        "editor": {
+            "camera": {
+                "far": 500.0
+            }
+        }
+    },
+    "animations": {},
+    "skins": {
+        "133": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\hand-left.glb"
+            },
+            "name": "HandLeftSkin",
+            "joints": []
+        },
+        "166": {
+            "link": {
+                "name": "Armature",
+                "file": "models\\hand-right.glb"
+            },
+            "name": "HandRightSkin",
+            "joints": []
+        }
+    },
+    "pipelines": {
+        "33": {
+            "link": {
+                "name": "DistanceFieldVector",
+                "file": "default"
+            }
+        },
+        "34": {
+            "link": {
+                "name": "Flat Opaque",
+                "file": "default"
+            }
+        },
+        "35": {
+            "link": {
+                "name": "Flat Opaque Textured",
+                "file": "default"
+            }
+        },
+        "36": {
+            "link": {
+                "name": "MeshVisualizer",
+                "file": "default"
+            }
+        },
+        "37": {
+            "link": {
+                "name": "Phong Opaque",
+                "file": "default"
+            }
+        },
+        "38": {
+            "link": {
+                "name": "Phong Opaque Textured",
+                "file": "default"
+            }
+        },
+        "39": {
+            "link": {
+                "name": "Foliage",
+                "file": "default"
+            }
+        },
+        "40": {
+            "link": {
+                "name": "Particle",
+                "file": "default"
+            }
+        },
+        "218": {
+            "link": {
+                "name": "Depth",
+                "file": "default"
+            }
+        },
+        "426": {
+            "link": {
+                "name": "Physical Opaque",
+                "file": "default"
+            }
+        },
+        "427": {
+            "link": {
+                "name": "Physical Opaque Textured",
+                "file": "default"
+            }
+        },
+        "430": {
+            "link": {
+                "name": "Text",
+                "file": "default"
+            }
+        },
+        "433": {
+            "link": {
+                "name": "Sky",
+                "file": "default"
+            }
+        }
+    },
+    "files": [
+        "models/oculus-touch-v2-left.glb",
+        "models/oculus-touch-v2-right.glb",
+        "models/hand-left.glb",
+        "models/hand-right.glb",
+        "models/button.glb",
+        "models/teleport-indicator.glb",
+        "models/Bank.glb",
+        "models/CarFinal.glb",
+        "models/Road.glb",
+        "models/SteeringWheel.glb",
+        "models/Bookstore.glb",
+        "models/meshtest4.glb",
+        "models/CarApplied.glb",
+        "models/SteeringWheel2.glb",
+        "models/Apartment.glb",
+        "models/FinalApartment.glb",
+        "models/FinalBookstore.glb"
+    ]
+}
